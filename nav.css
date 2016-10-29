@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: blue;
+	width: 100%;
+}
+
+.nav {
+	position: absolute;
+	top: 13px;
+	left: 5%;
+	width: 95%;
+	height: 95%;
+	transform: translateX(-3%);
+	background-color: black;
+}
+
+.header {
+	background-color: yellow;
+	position: relative;
+	width: 100%;
+}
+
+.menu {
+	background-color: red;
+	float: right;
+	/*margin-top: 25px;*/
+	margin-right: 5%;
+	word-spacing: 15px;
+}
+
+.logo {
+	position: relative;
+	display: inline-block;
+	margin-left: 5%;
+	word-spacing: 15px;
+	top: 4px;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 10px 10px 5px;
+	border: 2px solid white;  /*test box*/
+}
+
+.menu li a {
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: white;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.menu a:hover {
+	color: #e69020;
+}
