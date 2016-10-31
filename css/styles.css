@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	background: url("../img/bridge.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: lightgrey;
+}
+
+.nav {
+	position: absolute;
+	top: 13px;
+	left: 5%;
+	transform: translateX(-3%);
+	width: 95%;
+	height: 95%;
+	background-color:rgba(255, 255, 255, 0.85);
+}
+
+.header {
+	position: relative;
+	width: 100%;
+}
+
+.menu {
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	right: 30px;
+	bottom: 5px;
+	float: right;
+	transform: translateY(-12%);
+	-webkit-transform: translateY(-12%);
+	-ms-transform: translateY(-12%);
+	text-align: right;
+	word-spacing: 15px;
+}
+
+.logo {
+	position: relative;
+	top: 35px;
+	display: inline-block;
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px #767676;
+	background: #282a4f;
+}
+
+.menu li {
+	display: inline-block;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.menu li a {
+	border-bottom: 4px solid #039;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #444;
+	text-decoration: none;
+	transition: color 800ms;
+	-webkit-transition: color 800ms;
+	padding: 5px 25px;
+}
+
+.menu li a:hover {
+	border-bottom: 4px solid #6b95ff;
+	color: #6b95ff;
+	padding: 5px 25px;
+	transition: color 800ms;
+	-webkit-transition: color 800ms;
+}
+
+
+
+
